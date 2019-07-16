@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<link
+rel = "stylesheet"
+href ="file.css">
+
+<script scr="simp.js"></script>
+
+<style>
+body {
+  background-image: url("background.png");
+}
+</style>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#home">The Simpsons</a>
+  <div class="dropdown">
+
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+  </div>
+</div>
+
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+
+
+
+
+<center>
+<head>
+<h1> Things the Simpsons Have Predicted </h1>
+</head>
+</center>
+
+<center>
+<img src="http://assets2.ignimgs.com/2014/10/01/the-simpsons-couch-1280jpg-552cbc_1280w.jpg" width=
+"300" height="150"></center>
+
+
+<h3>
+<center>
+<body>
+  <p>
+  The Simpsons has been running since 1989 and it has 30 seasons!
+  The Simpsons is actually the longest running American sitcom, and animated show!
+  Maybe it is because of how many things they have predicted.
+  The following are predictions that came true:
+  </p>
+</center>
+</h3>
+
+
+<center>
+<h4>
+<ul style="list-style-type:circle">
+ In 1993, The Simpsons predicted the Siegfried and Roy's tiger attack and it came true in 2003 (season 5, episode 10).</li>
+<div>
+<iframe width="300" height="150" src="https://www.youtube.com/embed/13uST8DLTe0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div/>
+
+<br>
+In 1994, they predicted autocorrect fails, and these came true in 2007 (season 6, episode 8). </li>
+<div>
+<iframe width="300" height="150" src="https://www.youtube.com/embed/Jas0bwDdEzs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div/>
+
+<br>
+<div>
+In 1995, they predicted facetime and in 2010 it became a thing (season 6, episode 19). </li>
+</div>
+
+<br>
+In 2008, they predicted faulty voting machines and in 2012 it came true (season 20, episode 4). </li>
+<div>
+<iframe width="300" height="150" src="https://www.youtube.com/embed/EV_c1-YTk8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div/>
+
+
+<div>
+<br>
+<center>
+Of course there are many more. Tune back in next week, or check out this video!
+</center>
+</br>
+</div>
+</h4>
+</center>
+
+<center>
+<div>
+<iframe width="300" height="150" src="https://www.youtube.com/embed/Cfi1GnNKZMQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</center>
+
+<br>
+<button type="button" onclick="alert('The Simpsons has predicted that you are special!')">Click Me for the Secret Message!</button>
+</br>
+
+<body>
+</html>
